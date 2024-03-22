@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+        <style>
+            /* Inline CSS styles applied to SVG elements */
+            circle {
+                stroke: red;
+                fill: red;
+                stroke-width: 5;
+            }
+            text {
+                font-family: serif;
+                font-size: 50px;
+                fill: blue; /* Text color */
+                dominant-baseline: middle; /* Vertical alignment */
+                text-anchor: middle; /* Horizontal alignment */
+            }
+        </style>
+        <circle cx="150" cy="100" r="97"/>
+        <text x="150" y="100">svg</text>
+    </svg>
